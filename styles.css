@@ -7,7 +7,7 @@ body{
     /*height: 500px;*/
     display: inline-block;
     margin: 0;
-    background-color: #248CBC ;
+    /*background-color: #248CBC ;*/
     
 }
 div{
@@ -41,4 +41,7 @@ ul{
 li{
     display: block;
     border: 1px gray solid;
+}
+a{
+    text-decoration: none;
 }
