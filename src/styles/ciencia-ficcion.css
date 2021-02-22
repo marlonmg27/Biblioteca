@@ -1,7 +1,15 @@
 body{
     margin-left: 3px;
     display: inline-block;
-    background-color:#CFC0AF;
+    margin-left: 1px;
+    margin-bottom: 0px;
+    background: rgb(116,108,98);
+background: linear-gradient(90deg, rgba(116,108,98,1) 0%, rgba(207,192,175,1) 52%, rgba(111,104,95,1) 94%);
+}
+header{
+    display: inline-block;
+    width: 1000px;
+    margin-right: 0px;
 }
 img{
     display: inline-block;
@@ -16,18 +24,19 @@ h1{
     position: relative;
     margin-bottom: 25px;
     left: 122px;
-    
-    
-    
+    width: 1000px;
+    margin-right: 0px;
+    color: #251300;
 }
+
 .menuCf{
     width: 180px;
-    height: 640px;
-    border: 1px solid black;
+    height: 500px;
     margin: 0px;
     padding: 0px;
     float: left !important;
-    
+    margin-left: 10px;
+    margin-right: 10px;
 }
 ul{
     list-style: none;
@@ -35,7 +44,8 @@ ul{
     padding: 5px;
     height: 450px;
     width: 170px;
-    margin-top: 5px;
+    margin-top: 80px;
+    margin-right: 0px;
 }
 li{
     display: block;
@@ -49,11 +59,12 @@ a{
     font-size: 20px;
 }
 footer{
-    width: 992px;
+    display: inline-block;
+    width: 83.81em;
     height: 150px;
-    border: 1px black solid;
     position: relative;
     bottom: 40px;
+    border-top: 1px black solid;
     
 }
 #Github{
@@ -73,6 +84,7 @@ footer{
     left: 490px;
     top: 45px;
     background-color: #7D511F;
+    box-shadow: 7px 7px 7px #2F2C28 ;
 }
 button{
     display: inline-block;
