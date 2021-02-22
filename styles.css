@@ -1,0 +1,44 @@
+h1{
+    text-indent: 70px;
+    margin-bottom: 10px;
+   
+}
+body{
+    /*height: 500px;*/
+    display: inline-block;
+    margin: 0;
+    background-color: #248CBC ;
+    
+}
+div{
+    border: 1px solid black ;
+    margin: 0px;
+    padding: 0px;
+    float: left !important;
+    width: 790px;
+    height: 550px;
+    clear: right;
+
+    
+}
+.div2{
+    width: 180px;
+    height: 550px;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+    float: left !important;
+
+}
+ul{
+    list-style: none;
+    float: left;
+    padding: 5px;
+    height: 450px;
+    width: 170px;
+    margin-top: 5px;
+}
+li{
+    display: block;
+    border: 1px gray solid;
+}
