@@ -13,7 +13,7 @@ h1{
 }
 .menuCf{
     width: 180px;
-    height: 622px;
+    height: 640px;
     border: 1px solid black;
     margin: 0px;
     padding: 0px;
@@ -40,7 +40,7 @@ a{
     font-size: 20px;
 }
 footer{
-    width: 1032px;
+    width: 992px;
     height: 150px;
     border: 1px black solid;
     position: relative;
@@ -53,6 +53,7 @@ footer{
     position: relative;
     left: 550px;
     top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #logogit{
     position: relative;
@@ -62,11 +63,26 @@ footer{
     margin: 0px;
     left: 490px;
     top: 45px;
+    background-color: #7D511F;
 }
 button{
     display: inline-block;
     position: relative;
-    right: 150px;
-    bottom: 40px;
-    width: 70px;
+    left: 50px;
+    bottom: 60px;
+    width: 95px;
+    height: 20px;
+    background-color:#449DBC;
+    color: wheat;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 14.4px;
+}
+.CajaImg{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    width: 180px;
+    height: 290px;
+
 }
