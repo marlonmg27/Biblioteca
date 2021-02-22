@@ -16,7 +16,6 @@ img{
     margin-right: 20px;
     margin-bottom: 60px;
     box-shadow: 15px 15px 10px #2F2C28;
-
 }
 h1{
     margin-bottom: 10px;
@@ -83,7 +82,6 @@ footer{
     margin: 0px;
     left: 490px;
     top: 45px;
-    background-color: #7D511F;
     box-shadow: 7px 7px 7px #2F2C28 ;
 }
 button{
@@ -106,4 +104,15 @@ button{
     width: 180px;
     height: 290px;
 
+}
+#ssl{
+    position: absolute;
+    display: inline;
+    width: 120px;
+    height: 120px;
+    margin: 0px;
+    top: 35px;
+    clear: both;
+    left: 25px;
+    box-shadow: none;
 }
