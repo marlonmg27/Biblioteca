@@ -15,7 +15,7 @@ div{
     margin: 0px;
     padding: 0px;
     float: left !important;
-    width: 790px;
+    width: 900px;
     height: 550px;
     clear: right;
 
@@ -41,7 +41,15 @@ ul{
 li{
     display: block;
     border: 1px gray solid;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 a{
     text-decoration: none;
+    color: #A51719;
+    font-size: 20px;
+}
+#Github{
+    
+    color: rgb(12, 53, 129);
 }
