@@ -2,8 +2,9 @@ const HtmlWebPackPlugin= require('html-webpack-plugin');
 const MiniCssExtractPlugin= require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin= require('optimize-css-assets-webpack-plugin');
 const CopyPlugin= require('copy-webpack-plugin');
+
 module.exports= {
-    mode:'production',
+    mode:'development',
     optimization:{
         minimizer: [new OptimizeCssAssetsPlugin()]
 
