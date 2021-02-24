@@ -80,6 +80,10 @@ module.exports= {
             patterns:[
                 {from: './assets',
                  to: 'assets/'},
+                {
+                    from:'./src/html',
+                    to: 'html/'
+                },
             ]
         }),
         new MinifyPlugin(),

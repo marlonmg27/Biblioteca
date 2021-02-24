@@ -1,5 +1,5 @@
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 import './styles.css';
-
 
 
 let pedir = document.querySelectorAll('button');
