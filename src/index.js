@@ -1,3 +1,7 @@
+import './styles.css';
+
+
+
 let pedir = document.querySelectorAll('button');
 
 function reservar(){ pedir.forEach(pedirr => pedirr.addEventListener('click',()=>{

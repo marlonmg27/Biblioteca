@@ -47,7 +47,7 @@ module.exports= {
                 options: {
                     attributes: false,
                     minimize: false
-                },
+                }
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
@@ -69,20 +69,21 @@ module.exports= {
     plugins:[
         new HtmlWebPackPlugin({
             template: './src/index.html',
-            filename: './index.html'
+            filename: 'index.html'
         }),
+
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css',
             ignoreOrder: false
         }),
-        new CopyPlugin({
+        new CopyPlugin({ 
             patterns:[
-                {from: 'src/assets',
-                 to: 'assets/'}
+                {from: './assets',
+                 to: 'assets/'},
             ]
         }),
         new MinifyPlugin(),
-        new CleanWebpackPlugin(),
+        new CleanWebpackPlugin(), 
     ]
         
             
