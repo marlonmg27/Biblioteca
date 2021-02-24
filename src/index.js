@@ -2,9 +2,9 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import './styles.css';
 
 
-let pedir = document.querySelectorAll('button');
+ export let pedir = document.querySelectorAll('button');
 
-function reservar(){ pedir.forEach(pedirr => pedirr.addEventListener('click',()=>{
+ export function reservar(){ pedir.forEach(pedirr => pedirr.addEventListener('click',()=>{
     conf= confirm("Fecha de publicación: 15/08/2019, presiona 'Aceptar' si quieres pedir prestado el libro");
 
     if (!confirm) {
