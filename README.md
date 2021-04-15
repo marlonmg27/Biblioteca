@@ -1,3 +1,3 @@
 # Biblioteca
 primer proyectpo
-no alcance a terminarlo, pero lo hare
+no esta terminado aun, pero lo hare
